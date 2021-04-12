@@ -43,7 +43,7 @@ const getStream = (url, accessT, callback) =>{
     		'Authorization': `Bearer ${accessT}`
         },
         qs: {
-			'user_login': `turfino`
+			'user_login': `user_login`
 		}
 	}
 	
